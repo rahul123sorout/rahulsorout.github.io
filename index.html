@@ -2,85 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Rahul Sorout | Portfolio</title>
-  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-  <header>
-    <h1>Rahul Sorout</h1>
-    <p>Final Year B.E. (CSE) – Chandigarh University</p>
-    <div class="contacts">
-      <a href="mailto:soroutrahul745@gmail.com">Email</a> |
-      <a href="https://www.linkedin.com/in/rahul-sorout-4022a3230" target="_blank">LinkedIn</a>
-    </div>
-  </header>
+<body class="bg-gradient-to-br from-blue-100 via-purple-100 to-pink-100 text-gray-800 font-sans">
 
-  <section id="about">
-    <h2>About</h2>
-    <p>
-      Passionate Computer Science student with strong skills in programming, problem-solving &
-      web development. Seeking internships and collaborative tech opportunities.
-    </p>
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center flex-col text-center px-6">
+    <img src="your-photo.jpg" alt="Rahul Sorout" class="w-40 h-40 rounded-full shadow-lg mb-6 border-4 border-white">
+    <h1 class="text-4xl font-bold">Hi, I'm <span class="text-purple-600">Rahul Sorout</span></h1>
+    <p class="mt-4 text-lg max-w-xl">A passionate web developer building beautiful and functional digital experiences.</p>
   </section>
 
-  <section id="skills">
-    <h2>Skills</h2>
-    <ul>
-      <li>C, C++, Python</li>
-      <li>SQL, NoSQL (MongoDB)</li>
-      <li>HTML, CSS, JavaScript, React</li>
-      <li>PHP, MySQL</li>
-    </ul>
-  </section>
-
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <h3>Movie Recommendation System</h3>
-      <p>Python-based system using collaborative & content-based filters.</p>
-    </div>
-    <div class="project">
-      <h3>Stock Prediction (ML)</h3>
-      <p>LSTM & Linear Regression models for forecasting stock trends.</p>
-    </div>
-    <div class="project">
-      <h3>BDM Enterprises Clone (E‑commerce)</h3>
-      <p>Built with React frontend, PHP+MySQL backend & secure payment integration.</p>
+  <!-- About Section -->
+  <section id="about" class="py-16 bg-white">
+    <div class="max-w-4xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-4">About Me</h2>
+      <p class="text-gray-600">I'm a web developer with a strong interest in clean code, modern UI design, and user-friendly interfaces. I love learning new tech and building creative projects.</p>
     </div>
   </section>
 
-  <section id="education">
-    <h2>Education</h2>
-    <ul>
-      <li><strong>Chandigarh University</strong>, B.E. CSE (2022–2026) — CGPA: 6.7</li>
-      <li>Intermediate — 95.2%, Saraswati Sr. Sec. School, Hodal</li>
-      <li>Matriculation — 88.2%, Saraswati Sr. Sec. School, Hodal</li>
-    </ul>
+  <!-- Projects Section -->
+  <section id="projects" class="py-16 bg-purple-50">
+    <div class="max-w-5xl mx-auto px-6">
+      <h2 class="text-3xl font-semibold text-center mb-10">Projects</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <h3 class="text-xl font-bold mb-2">Project One</h3>
+          <p class="text-gray-600">A responsive web application built using HTML, CSS, and JavaScript.</p>
+        </div>
+        <div class="bg-white p-6 rounded-2xl shadow-md">
+          <h3 class="text-xl font-bold mb-2">Project Two</h3>
+          <p class="text-gray-600">An interactive portfolio page with animations and scroll effects.</p>
+        </div>
+      </div>
+    </div>
   </section>
 
-  <section id="certifications">
-    <h2>Certifications</h2>
-    <ul>
-      <li>Cloud Computing (IIT Kharagpur, NPTEL)</li>
-      <li>IoT Design Concepts (IIT Kharagpur, NPTEL)</li>
-      <li>NoSQL & Spark (Coursera)</li>
-      <li>Cybersecurity Fundamentals (Coursera)</li>
-    </ul>
+  <!-- Contact Section -->
+  <section id="contact" class="py-16 bg-gradient-to-r from-purple-100 via-pink-100 to-yellow-100">
+    <div class="max-w-3xl mx-auto px-6 text-center">
+      <h2 class="text-3xl font-semibold mb-6">Contact Me</h2>
+      <p class="text-gray-700 mb-4">Let’s connect! You can reach me through email or my social handles below.</p>
+      <a href="mailto:your-email@example.com" class="text-purple-700 underline">your-email@example.com</a>
+    </div>
   </section>
 
-  <section id="achievements">
-    <h2>Achievements</h2>
-    <ul>
-      <li>Smart India Hackathon Finalist</li>
-      <li>All India Inter‑University Wrestling Champion 2025</li>
-      <li>State‑level Cricket Player</li>
-      <li>NSS Volunteer (Community Service)</li>
-    </ul>
-  </section>
-
-  <footer>
-    <p>📍 Hodal, Haryana, India</p>
+  <footer class="text-center py-6 bg-white text-gray-500">
+    © 2025 Rahul Sorout. All rights reserved.
   </footer>
+
 </body>
 </html>
