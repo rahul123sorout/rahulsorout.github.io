@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+header {
+  text-align: center;
+  padding: 20px;
+  background: #f4f4f4;
+}
+h1 {
+  margin-bottom: 0;
+}
+.contacts a {
+  margin: 0 5px;
+  color: #333;
+  text-decoration: none;
+}
+.contacts a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 20px;
+}
+h2 {
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+.project {
+  margin-bottom: 15px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #f4f4f4;
+}
