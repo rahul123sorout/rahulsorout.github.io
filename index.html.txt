@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rahul Sorout | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Rahul Sorout</h1>
+    <p>Final Year B.E. (CSE) – Chandigarh University</p>
+    <div class="contacts">
+      <a href="mailto:soroutrahul745@gmail.com">Email</a> |
+      <a href="https://www.linkedin.com/in/rahul-sorout-4022a3230" target="_blank">LinkedIn</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>
+      Passionate Computer Science student with strong skills in programming, problem-solving &
+      web development. Seeking internships and collaborative tech opportunities.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>C, C++, Python</li>
+      <li>SQL, NoSQL (MongoDB)</li>
+      <li>HTML, CSS, JavaScript, React</li>
+      <li>PHP, MySQL</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Movie Recommendation System</h3>
+      <p>Python-based system using collaborative & content-based filters.</p>
+    </div>
+    <div class="project">
+      <h3>Stock Prediction (ML)</h3>
+      <p>LSTM & Linear Regression models for forecasting stock trends.</p>
+    </div>
+    <div class="project">
+      <h3>BDM Enterprises Clone (E‑commerce)</h3>
+      <p>Built with React frontend, PHP+MySQL backend & secure payment integration.</p>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>Chandigarh University</strong>, B.E. CSE (2022–2026) — CGPA: 6.7</li>
+      <li>Intermediate — 95.2%, Saraswati Sr. Sec. School, Hodal</li>
+      <li>Matriculation — 88.2%, Saraswati Sr. Sec. School, Hodal</li>
+    </ul>
+  </section>
+
+  <section id="certifications">
+    <h2>Certifications</h2>
+    <ul>
+      <li>Cloud Computing (IIT Kharagpur, NPTEL)</li>
+      <li>IoT Design Concepts (IIT Kharagpur, NPTEL)</li>
+      <li>NoSQL & Spark (Coursera)</li>
+      <li>Cybersecurity Fundamentals (Coursera)</li>
+    </ul>
+  </section>
+
+  <section id="achievements">
+    <h2>Achievements</h2>
+    <ul>
+      <li>Smart India Hackathon Finalist</li>
+      <li>All India Inter‑University Wrestling Champion 2025</li>
+      <li>State‑level Cricket Player</li>
+      <li>NSS Volunteer (Community Service)</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>📍 Hodal, Haryana, India</p>
+  </footer>
+</body>
+</html>
